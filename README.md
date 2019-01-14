@@ -12,3 +12,6 @@ prevent-repeat-test 为测试模块和扩展例子
 使用@PreventRepeat对方法防重
 
 默认使用redis实现防重,可扩展, 在prevent-repeat-test中示意了使用mysql的实现
+
+redis键默认保存1分钟，通过preventRepeat.timeout设置expire
+使用mysql时需要考虑定时清理过期键
