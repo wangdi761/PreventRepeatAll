@@ -60,7 +60,7 @@ public class PreventRepeatAspect {
 
     /**
      * 封装获取 PreventRepeat 的具体实现
-     * @param pjp
+     * @param pjp 
      * @return
      * @throws NoSuchMethodException
      */
